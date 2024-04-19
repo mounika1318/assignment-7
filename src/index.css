@@ -1,0 +1,231 @@
+button{
+  background-color: transparent;
+  border: 1px solid grey;
+  padding: 8px;
+  padding-right: 12px;
+  padding-left: 12px;
+
+  border: none;
+  background: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  color: #2563eb;
+  color: ${props => props.color};
+  
+  color: gray;
+  margin: 12px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 6px;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 12px;
+
+  @media screen and (min-width:768px) {
+    width:300px;
+  }
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 350px;
+
+  outline: none;
+  padding: 8px;
+  width: 100%;
+  border: 1px solid #94a3b8;
+  border-radius: 4px;
+  margin-top: 5px;
+
+width: 30px;
+height: 30px;
+border-radius: 50px;
+margin: 20px;
+
+  background: none;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  padding: 8px;
+ 
+ font-family: "Roboto";
+ font-size: 15px;
+ color: ${props => props.color};
+
+}
+
+p{
+  min-height: 100h;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  overflow-y: auto;
+
+  background-image: ;
+  width: 100%;
+  background-size: cover;
+  height: 200px;
+  display: ;
+  justify-content: space-between;
+  padding: 20px;
+
+  background: none;
+  width: 100%;
+  outline: none;
+  padding: 5px;
+  border: none;
+  color: ;
+  font-family: "Roboto";
+}
+@media screen and (min-width:768px) {
+  font-size: 15px;
+  padding: 14px;
+  padding-right: 20px;
+  padding-left: 20px;
+
+  
+}
+#{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 150px;
+  width: 250px;
+  background-color: #cbd5e1;
+  border-radius: 10px;
+  padding: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: #909090;
+  width: 70px;
+  border: none;
+  
+}
+p{
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  height: 60px;
+  width: 100%;
+
+  display: flex;
+  border: 1px solid #909090;
+  border-radius: 3px;
+  margin: 20px;
+  width: 60%;
+  height: 40px;
+
+  border: 1px solid #000000;
+  color: #000000;
+  background: none;
+
+  border: 1px solid;
+  font-family: "Roboto";
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  background-color: ${props => props.bgColor};
+  color: ${props => props.color};
+  border-color: ${props => props.color};
+  margin-left:6px;
+  @media screen and (max-width:768px) {
+    display:none;
+  }
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 8px;
+  width: 100vw;
+  height: 300px;
+  align-self: center;
+  background: none;
+}
+h2{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0px;
+}
+p{
+  background-color:${props => props.bgColor} ;
+  min-height: 100vh;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  overflow-y: auto;
+}
+@media screen and (min-width:768px) {
+  margin-left: 250px;
+  margin-bottom: ;: 0px;
+}
+h1{
+    font-family: "Roboto";
+    font-size: 25px;
+    color: ${props => props.headingColor};
+    text-align:center;
+}
+button{
+  border: none;
+  background-color: #4f46e5;
+  border-radius: 3px;
+  color: #ffffff;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: "Roboto";
+  font-size: 15px;
+}
+p{
+  width: 40px;
+  height: 40px;
+  border-radius: 80px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p{
+  font-family: "Roboto";
+  font-size: 15px;
+  margin: 10px;
+  color: black;
+  text-align: center;
+}
+
+p{
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+
+  width: 100%;
+  background-color: #4f46e5;
+  border: none;
+  border-radius: 5px;
+  font-family: "Roboto";
+  font-size: 15px;
+  height: 30px;
+  color: #ffffff;
+  margin-top: 20px;
+}
