@@ -59,7 +59,7 @@ export const TrendingViewsAndDate = styled.p`
   font-size: 12px;
   color: ${props => props.color};
 `
-export const TrendingDot = SVGUnitTypes.span`
+export const TrendingDot = styled.span`
   width:20px;
   height:20px;
   border-radius:50%;
