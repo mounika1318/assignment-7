@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const TrendingContainer = styled.div`
   background-color: ${props => props.bgColor};
-  min-height: 100h;
+  min-height: 100vh;
   margin-top: 60px;
   margin-bottom: 60px;
   overflow-y: auto;
